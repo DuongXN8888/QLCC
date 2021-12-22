@@ -1,0 +1,14 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Magazines_init() hook (in hooks/Magazines.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Ma-Type-<%%VALUE(id)%%>" class="Ma-Type"><%%VALUE(Type)%%></td>
+		<td id="Ma-Name-<%%VALUE(id)%%>" class="Ma-Name"><%%VALUE(Name)%%></td>
+		<td id="Ma-Date_Of_Receipt-<%%VALUE(id)%%>" class="Ma-Date_Of_Receipt"><%%VALUE(Date_Of_Receipt)%%></td>
+		<td id="Ma-Date_Published-<%%VALUE(id)%%>" class="Ma-Date_Published"><%%VALUE(Date_Published)%%></td>
+		<td id="Ma-Pages-<%%VALUE(id)%%>" class="Ma-Pages text-right"><%%VALUE(Pages)%%></td>
+		<td id="Ma-Price-<%%VALUE(id)%%>" class="Ma-Price text-right"><%%VALUE(Price)%%></td>
+		<td id="Ma-Publisher-<%%VALUE(id)%%>" class="Ma-Publisher"><%%VALUE(Publisher)%%></td>

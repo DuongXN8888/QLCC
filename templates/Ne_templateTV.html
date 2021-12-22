@@ -1,0 +1,17 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the NewsPapers_init() hook (in hooks/NewsPapers.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Ne-Language-<%%VALUE(id)%%>" class="Ne-Language"><%%SELECT%%><%%VALUE(Language)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Name-<%%VALUE(id)%%>" class="Ne-Name"><%%SELECT%%><%%VALUE(Name)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Date_Of_Receipt-<%%VALUE(id)%%>" class="Ne-Date_Of_Receipt"><%%SELECT%%><%%VALUE(Date_Of_Receipt)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Date_Published-<%%VALUE(id)%%>" class="Ne-Date_Published"><%%SELECT%%><%%VALUE(Date_Published)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Pages-<%%VALUE(id)%%>" class="Ne-Pages text-right"><%%SELECT%%><%%VALUE(Pages)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Price-<%%VALUE(id)%%>" class="Ne-Price text-right"><%%SELECT%%><%%VALUE(Price)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Type-<%%VALUE(id)%%>" class="Ne-Type"><%%SELECT%%><%%VALUE(Type)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Publisher-<%%VALUE(id)%%>" class="Ne-Publisher"><%%SELECT%%><%%VALUE(Publisher)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Typess-<%%VALUE(id)%%>" class="Ne-Typess"><%%SELECT%%><%%VALUE(Typess)%%><%%ENDSELECT%%></td>
+		<td id="Ne-Pu-<%%VALUE(id)%%>" class="Ne-Pu"><%%SELECT%%><%%VALUE(Pu)%%><%%ENDSELECT%%></td>
